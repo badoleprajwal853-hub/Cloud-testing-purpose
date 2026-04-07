@@ -2,11 +2,14 @@
 Cloud computing testing 
 {
   "app": {
-    "name": "DemoApp",
-    "version": "1.0"
+    "name": "ConfigParser",
+    "version": "1.0",
+    "debug": true
   },
-  "server": {
-    "host": "127.0.0.1",
-    "port": 5000
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "admin",
+    "password": "secret"
   }
 }
